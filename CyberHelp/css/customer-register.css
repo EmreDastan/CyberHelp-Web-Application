@@ -1,0 +1,73 @@
+/* Customer Registration Page Styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #211485, #06014b);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding-left: 29%;
+}
+
+.register-container {
+  width: 600px;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00204a;
+}
+
+.register-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #00204a;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 15px;
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004080;
+}
+
+.error-message {
+  color: #ff3333;
+  margin-top: 10px;
+  text-align: center;
+}
